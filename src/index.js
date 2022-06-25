@@ -1,4 +1,6 @@
 import './styles/main.scss'
 
-console.log(123)
+import dog from './assets/dog.svg'
 
+const doghImg = document.getElementById('dogImg')
+dogImg.src = dog
